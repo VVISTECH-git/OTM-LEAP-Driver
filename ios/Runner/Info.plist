@@ -78,5 +78,15 @@
 	<string>LEAP Driver needs photo library access to upload proof of delivery.</string>
 	<key>NSPhotoLibraryAddUsageDescription</key>
 	<string>LEAP Driver needs permission to save delivery photos.</string>
+<key>CFBundleURLTypes</key>
+<array>
+<dict>
+<key>CFBundleURLSchemes</key>
+<array>
+<string>leapdriver</string>
+</array>
+</dict>
+</array>
 </dict>
 </plist>
+
