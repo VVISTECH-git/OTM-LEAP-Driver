@@ -1,7 +1,11 @@
 name: leapdriver
 description: "Leap Driver — Transportation Execution App"
 publish_to: 'none'
+<<<<<<< HEAD
 version: 1.0.2+5
+=======
+version: 1.0.2+4
+>>>>>>> 90114d7f11ff9b9bc1bb3b38a48c9f3eddc431a4
 
 environment:
   sdk: ^3.5.0
