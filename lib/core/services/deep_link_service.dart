@@ -58,13 +58,28 @@ class DeepLinkService {
   }
 
   /// Parse shipment ID from URI
-  /// Supports: https://vvistech.com/shipment/DEMO.17002
+  /// Supports:
+  ///   - https://vvistech.com/shipment/DEMO.17002 (Universal Link)
+  ///   - leapdriver://shipment/DEMO.17002 (Custom URL Scheme)
   String? parseShipmentId(Uri uri) {
     log('=== Parsing URI ===');
+    log('Scheme: ${uri.scheme}');
     log('Host: ${uri.host}');
     log('Path: ${uri.path}');
     log('Segments: ${uri.pathSegments}');
 
+    // Handle custom URL scheme: leapdriver://shipment/DEMO.17002
+    if (uri.scheme == 'leapdriver') {
+      if (uri.pathSegments.isEmpty) {
+        log('No shipment ID found in custom scheme path');
+        return null;
+      }
+      final shipmentId = uri.pathSegments[0];
+      log('Extracted Shipment ID (custom scheme): $shipmentId');
+      return shipmentId;
+    }
+
+    // Handle Universal Link: https://vvistech.com/shipment/DEMO.17002
     if (uri.host != 'vvistech.com') {
       log('Invalid host: ${uri.host}');
       return null;
@@ -81,12 +96,18 @@ class DeepLinkService {
     }
 
     final shipmentId = uri.pathSegments[1];
-    log('Extracted Shipment ID: $shipmentId');
+    log('Extracted Shipment ID (universal link): $shipmentId');
     return shipmentId;
   }
 
   /// Check if a URI is a valid shipment deep link
   bool isShipmentLink(Uri uri) {
+    // Custom URL scheme
+    if (uri.scheme == 'leapdriver') {
+      return uri.pathSegments.isNotEmpty;
+    }
+
+    // Universal Link
     return uri.host == 'vvistech.com' &&
         uri.pathSegments.isNotEmpty &&
         uri.pathSegments[0] == 'shipment' &&
