@@ -1,0 +1,170 @@
+{
+  "@@locale": "hi",
+
+  "appTitle": "Leap Driver",
+  "checkSms": "अपना SMS जांचें",
+  "smsInstruction": "अपनी यात्रा खोलने के लिए फोन पर भेजे गए शिपमेंट लिंक पर टैप करें।",
+  "openSmsApp": "SMS ऐप खोलें",
+  "smsTapInstruction": "शुरू करने के लिए डिस्पैचर द्वारा भेजे गए शिपमेंट लिंक पर टैप करें।",
+  "noLoginRequired": "लॉगिन आवश्यक नहीं · SMS लिंक के माध्यम से पहुंच",
+
+  "loadingShipment": "शिपमेंट लोड हो रहा है...",
+  "unableToLoad": "लोड करने में असमर्थ",
+  "retry": "पुनः प्रयास करें",
+  "noData": "कोई डेटा नहीं",
+
+  "shipment": "शिपमेंट",
+  "notStarted": "शुरू नहीं हुआ",
+  "headingToPickup": "पिकअप की ओर जा रहे हैं",
+  "inTransit": "पारगमन में",
+  "allStopsDone": "सभी स्टॉप पूर्ण · पूरा करने के लिए तैयार",
+  "tripCompleted": "यात्रा पूर्ण",
+  "stopProgress": "स्टॉप {done} में से {total}",
+  "@stopProgress": {
+    "placeholders": {
+      "done": { "type": "int" },
+      "total": { "type": "int" }
+    }
+  },
+  "stopsNotStarted": "{total} स्टॉप · शुरू नहीं हुआ",
+  "@stopsNotStarted": {
+    "placeholders": {
+      "total": { "type": "int" }
+    }
+  },
+
+  "pendingAcceptance": "स्वीकृति की प्रतीक्षा",
+  "accepted": "स्वीकृत",
+  "enRoutePickup": "पिकअप के रास्ते में",
+  "atPickup": "पिकअप पर",
+  "atDelivery": "डिलीवरी पर",
+  "delivered": "डिलीवर किया",
+  "completed": "पूर्ण",
+  "declined": "अस्वीकृत",
+
+  "acceptLoad": "✓  लोड स्वीकार करें",
+  "startTrip": "▶  यात्रा शुरू करें",
+  "arrivedAtPickup": "📍  पिकअप पर पहुंचे",
+  "loaded": "✅  लोड हो गया",
+  "arrivedAtDelivery": "📍  डिलीवरी पर पहुंचे",
+  "deliveredBtn": "✅  डिलीवर किया",
+  "completeTrip": "🏁  यात्रा पूर्ण करें",
+  "uploadPodToComplete": "🔒  पूरा करने के लिए POD अपलोड करें",
+  "declineLoad": "लोड अस्वीकार करें",
+
+  "callPickup": "कॉल\nपिकअप",
+  "navigate": "नेविगेट",
+  "pod": "POD",
+  "uploadPod": "POD अपलोड",
+  "callDelivery": "कॉल\nडिलीवरी",
+  "issue": "समस्या",
+
+  "loadInformation": "लोड जानकारी",
+  "routeSection": "📍  रूट",
+  "loadDetailsSection": "📦  लोड विवरण",
+  "origin": "मूल",
+  "destination": "गंतव्य",
+  "pickup": "पिकअप",
+  "delivery": "डिलीवरी",
+  "stops": "स्टॉप",
+  "distance": "दूरी",
+  "equipment": "उपकरण",
+  "weight": "वजन",
+  "hazardous": "खतरनाक",
+  "tempControl": "तापमान नियंत्रण",
+  "yes": "⚠️  हाँ",
+  "no": "✓  नहीं",
+  "yesTemp": "❄️  हाँ",
+
+  "stopTimeline": "स्टॉप",
+  "allDone": "सभी पूर्ण ✓",
+  "done": "पूर्ण",
+  "headingHere": "🚛 यहाँ आ रहे हैं",
+  "youAreHere": "📍 आप यहाँ हैं",
+  "upNext": "⏳ अगला",
+  "upcoming": "⏳ आगामी",
+  "recordedEvents": "दर्ज घटनाएं",
+  "arrivedAtStop": "स्टॉप पर पहुंचे",
+  "leftStop": "स्टॉप से निकले",
+  "podSubmitted": "POD जमा किया",
+
+  "podReminderBanner": "⚠️  POD आवश्यक — यात्रा पूर्ण करने से पहले अपलोड करें",
+
+  "reportIssue": "समस्या रिपोर्ट करें",
+  "dispatcherNotified": "आपका डिस्पैचर तुरंत सूचित किया जाएगा।",
+  "delay": "देरी",
+  "breakdown": "खराबी",
+  "damage": "नुकसान",
+  "dispatcherNotifiedMsg": "डिस्पैचर को सूचित किया गया",
+
+  "locationSharing": "स्थान साझाकरण",
+  "shareMyLocation": "मेरा स्थान साझा करें",
+  "updatesAutomatically": "ड्राइव करते समय स्वतः अपडेट होता है।",
+  "yourDispatcherSees": "आपका डिस्पैचर यात्रा के दौरान आपका स्थान देखता है।",
+  "locationSharingOn": "स्थान साझाकरण चालू",
+  "locationSharingOff": "स्थान साझाकरण बंद",
+  "save": "सहेजें",
+  "sharingLocation": "स्थान साझा हो रहा है",
+  "locationPaused": "स्थान रुका हुआ",
+  "locationOn": "स्थान चालू",
+  "locationOff": "स्थान बंद",
+
+  "pauseTracking": "ट्रैकिंग रोकें?",
+  "pauseTrackingMsg": "स्थान पिंग तुरंत बंद हो जाएंगे",
+  "pauseWarning": "डिस्पैचर अब आपकी लाइव स्थिति नहीं देखेगा। फिर से शुरू करने के लिए बैज पर टैप करें।",
+  "cancel": "रद्द करें",
+  "pauseTrackingBtn": "ट्रैकिंग रोकें",
+
+  "confirmAction": "कार्य की पुष्टि करें",
+  "youAreAboutTo": "आप करने वाले हैं:",
+  "cannotBeUndone": "इसे पूर्ववत नहीं किया जा सकता।",
+  "yesConfirm": "हाँ, पुष्टि करें",
+
+  "reasonForDeclining": "अस्वीकृति का कारण",
+  "selectReasonBelow": "नीचे कारण चुनें",
+  "vehicleIssue": "वाहन समस्या",
+  "personalEmergency": "व्यक्तिगत आपातकाल",
+  "routeTooLong": "रूट बहुत लंबा",
+  "lowRate": "कम दर",
+  "other": "अन्य",
+  "selectReasonFirst": "पहले एक कारण चुनें।",
+  "confirmDecline": "अस्वीकृति की पुष्टि करें",
+
+  "documents": "दस्तावेज़",
+  "uploadedCount": "{count} / 4 अपलोड",
+  "@uploadedCount": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "podSigned": "POD (हस्ताक्षरित)",
+  "podMandatory": "यात्रा पूर्ण करने से पहले अनिवार्य",
+  "eWayBill": "ई-वे बिल",
+  "invoiceCopy": "चालान की प्रति",
+  "damagePhoto": "नुकसान की फोटो",
+  "optional": "वैकल्पिक",
+  "required": "आवश्यक",
+  "uploaded": "✓ अपलोड किया",
+  "podUploadedMsg": "POD अपलोड ✓ — अब आप यात्रा पूर्ण कर सकते हैं",
+  "uploadPodFirst": "कृपया पहले अपना POD अपलोड करें",
+
+  "callPickupContact": "पिकअप संपर्क",
+  "callDeliveryContact": "डिलीवरी संपर्क",
+  "callNow": "अभी कॉल करें",
+  "callingMsg": "कॉल कर रहे हैं",
+  "callingDispatcher": "डिस्पैचर को कॉल कर रहे हैं...",
+
+  "tripCompletedTitle": "यात्रा पूर्ण!",
+  "tripCompletedSubtitle": "शिपमेंट सफलतापूर्वक डिलीवर किया गया।",
+  "callDispatcher": "डिस्पैचर को कॉल करें",
+  "podSubmittedBadge": "POD जमा किया",
+  "tripClosedBadge": "यात्रा बंद",
+
+  "loadDeclined": "लोड अस्वीकृत",
+  "youHaveDeclined": "आपने यह लोड अस्वीकार कर दिया है।",
+  "declinedMistake": "अगर यह गलती थी, तो अपने डिस्पैचर को कॉल करें।",
+
+  "couldNotUpdate": "स्थिति अपडेट नहीं हो सकी। पुनः प्रयास करें।",
+  "openingMaps": "मैप्स खोल रहे हैं",
+  "failedMsg": "विफल"
+}

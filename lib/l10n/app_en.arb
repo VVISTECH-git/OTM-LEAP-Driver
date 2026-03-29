@@ -1,0 +1,170 @@
+{
+  "@@locale": "en",
+
+  "appTitle": "Leap Driver",
+  "checkSms": "Check your SMS",
+  "smsInstruction": "Tap the shipment link sent to your phone to open your trip.",
+  "openSmsApp": "Open your SMS app",
+  "smsTapInstruction": "Tap the shipment link sent by your dispatcher to get started.",
+  "noLoginRequired": "No login required · Access is provided via SMS link",
+
+  "loadingShipment": "Loading shipment...",
+  "unableToLoad": "Unable to Load",
+  "retry": "Retry",
+  "noData": "No data",
+
+  "shipment": "SHIPMENT",
+  "notStarted": "Not started",
+  "headingToPickup": "Heading to pickup",
+  "inTransit": "In transit",
+  "allStopsDone": "All stops done · Ready to complete",
+  "tripCompleted": "Trip completed",
+  "stopProgress": "Stop {done} of {total}",
+  "@stopProgress": {
+    "placeholders": {
+      "done": { "type": "int" },
+      "total": { "type": "int" }
+    }
+  },
+  "stopsNotStarted": "{total} stops · Not started",
+  "@stopsNotStarted": {
+    "placeholders": {
+      "total": { "type": "int" }
+    }
+  },
+
+  "pendingAcceptance": "Pending Acceptance",
+  "accepted": "Accepted",
+  "enRoutePickup": "En Route Pickup",
+  "atPickup": "At Pickup",
+  "atDelivery": "At Delivery",
+  "delivered": "Delivered",
+  "completed": "Completed",
+  "declined": "Declined",
+
+  "acceptLoad": "✓  Accept Load",
+  "startTrip": "▶  Start Trip",
+  "arrivedAtPickup": "📍  Arrived at Pickup",
+  "loaded": "✅  Loaded",
+  "arrivedAtDelivery": "📍  Arrived at Delivery",
+  "deliveredBtn": "✅  Delivered",
+  "completeTrip": "🏁  Complete Trip",
+  "uploadPodToComplete": "🔒  Upload POD to Complete",
+  "declineLoad": "Decline Load",
+
+  "callPickup": "Call\nPickup",
+  "navigate": "Navigate",
+  "pod": "POD",
+  "uploadPod": "Upload POD",
+  "callDelivery": "Call\nDelivery",
+  "issue": "Issue",
+
+  "loadInformation": "LOAD INFORMATION",
+  "routeSection": "📍  Route",
+  "loadDetailsSection": "📦  Load Details",
+  "origin": "Origin",
+  "destination": "Destination",
+  "pickup": "Pickup",
+  "delivery": "Delivery",
+  "stops": "STOPS",
+  "distance": "Distance",
+  "equipment": "Equipment",
+  "weight": "Weight",
+  "hazardous": "Hazardous",
+  "tempControl": "Temp Control",
+  "yes": "⚠️  Yes",
+  "no": "✓  No",
+  "yesTemp": "❄️  Yes",
+
+  "stopTimeline": "Stops",
+  "allDone": "All done ✓",
+  "done": "Done",
+  "headingHere": "🚛 Heading here",
+  "youAreHere": "📍 You are here",
+  "upNext": "⏳ Up next",
+  "upcoming": "⏳ Upcoming",
+  "recordedEvents": "RECORDED EVENTS",
+  "arrivedAtStop": "Arrived at stop",
+  "leftStop": "Left the stop",
+  "podSubmitted": "POD submitted",
+
+  "podReminderBanner": "⚠️  POD required — upload before completing trip",
+
+  "reportIssue": "Report an Issue",
+  "dispatcherNotified": "Your dispatcher will be notified immediately.",
+  "delay": "Delay",
+  "breakdown": "Breakdown",
+  "damage": "Damage",
+  "dispatcherNotifiedMsg": "Dispatcher has been notified",
+
+  "locationSharing": "Location Sharing",
+  "shareMyLocation": "Share my location",
+  "updatesAutomatically": "Updates automatically while you drive.",
+  "yourDispatcherSees": "Your dispatcher sees your location during the trip.",
+  "locationSharingOn": "Location sharing is on",
+  "locationSharingOff": "Location sharing is off",
+  "save": "Save",
+  "sharingLocation": "Sharing location",
+  "locationPaused": "Location paused",
+  "locationOn": "Location on",
+  "locationOff": "Location off",
+
+  "pauseTracking": "Pause Live Tracking?",
+  "pauseTrackingMsg": "Location pings will stop immediately",
+  "pauseWarning": "The dispatcher will no longer see your live position. Tap the Live badge to resume.",
+  "cancel": "Cancel",
+  "pauseTrackingBtn": "Pause Tracking",
+
+  "confirmAction": "Confirm Action",
+  "youAreAboutTo": "You are about to:",
+  "cannotBeUndone": "This cannot be undone.",
+  "yesConfirm": "Yes, Confirm",
+
+  "reasonForDeclining": "Reason for Declining",
+  "selectReasonBelow": "Select the reason below",
+  "vehicleIssue": "Vehicle Issue",
+  "personalEmergency": "Personal Emergency",
+  "routeTooLong": "Route Too Long",
+  "lowRate": "Low Rate",
+  "other": "Other",
+  "selectReasonFirst": "Select a reason first.",
+  "confirmDecline": "Confirm Decline",
+
+  "documents": "Documents",
+  "uploadedCount": "{count} / 4 uploaded",
+  "@uploadedCount": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "podSigned": "POD (Signed)",
+  "podMandatory": "Mandatory before trip completion",
+  "eWayBill": "E-Way Bill",
+  "invoiceCopy": "Invoice Copy",
+  "damagePhoto": "Damage Photo",
+  "optional": "Optional",
+  "required": "Required",
+  "uploaded": "✓ Uploaded",
+  "podUploadedMsg": "POD uploaded ✓ — you can now complete the trip",
+  "uploadPodFirst": "Please upload your POD first",
+
+  "callPickupContact": "Pickup Contact",
+  "callDeliveryContact": "Delivery Contact",
+  "callNow": "Call Now",
+  "callingMsg": "Calling",
+  "callingDispatcher": "Calling dispatcher...",
+
+  "tripCompletedTitle": "Trip Completed!",
+  "tripCompletedSubtitle": "Shipment delivered successfully.",
+  "callDispatcher": "Call Dispatcher",
+  "podSubmittedBadge": "POD submitted",
+  "tripClosedBadge": "Trip closed",
+
+  "loadDeclined": "Load Declined",
+  "youHaveDeclined": "You have declined this load.",
+  "declinedMistake": "If this was a mistake, please call your dispatcher.",
+
+  "couldNotUpdate": "Could not update status. Please try again.",
+  "openingMaps": "Opening maps to",
+  "failedMsg": "Failed"
+}

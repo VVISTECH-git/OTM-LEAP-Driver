@@ -1,0 +1,170 @@
+{
+  "@@locale": "pl",
+
+  "appTitle": "Leap Driver",
+  "checkSms": "Sprawdź SMS",
+  "smsInstruction": "Kliknij link przesyłki wysłany na Twój telefon, aby otworzyć trasę.",
+  "openSmsApp": "Otwórz aplikację SMS",
+  "smsTapInstruction": "Kliknij link przesyłki wysłany przez dyspozytora, aby rozpocząć.",
+  "noLoginRequired": "Bez logowania · Dostęp przez link SMS",
+
+  "loadingShipment": "Ładowanie przesyłki...",
+  "unableToLoad": "Nie można załadować",
+  "retry": "Spróbuj ponownie",
+  "noData": "Brak danych",
+
+  "shipment": "PRZESYŁKA",
+  "notStarted": "Nie rozpoczęto",
+  "headingToPickup": "W drodze po odbiór",
+  "inTransit": "W transporcie",
+  "allStopsDone": "Wszystkie przystanki ukończone · Gotowy do zakończenia",
+  "tripCompleted": "Trasa zakończona",
+  "stopProgress": "Przystanek {done} z {total}",
+  "@stopProgress": {
+    "placeholders": {
+      "done": { "type": "int" },
+      "total": { "type": "int" }
+    }
+  },
+  "stopsNotStarted": "{total} przystanki · Nie rozpoczęto",
+  "@stopsNotStarted": {
+    "placeholders": {
+      "total": { "type": "int" }
+    }
+  },
+
+  "pendingAcceptance": "Oczekuje na Akceptację",
+  "accepted": "Zaakceptowano",
+  "enRoutePickup": "W Drodze po Odbiór",
+  "atPickup": "Na Odbiorze",
+  "atDelivery": "Na Dostawie",
+  "delivered": "Dostarczone",
+  "completed": "Ukończono",
+  "declined": "Odrzucono",
+
+  "acceptLoad": "✓  Akceptuj Ładunek",
+  "startTrip": "▶  Rozpocznij Trasę",
+  "arrivedAtPickup": "📍  Dotarłem do Odbioru",
+  "loaded": "✅  Załadowano",
+  "arrivedAtDelivery": "📍  Dotarłem do Dostawy",
+  "deliveredBtn": "✅  Dostarczone",
+  "completeTrip": "🏁  Zakończ Trasę",
+  "uploadPodToComplete": "🔒  Wyślij POD aby Zakończyć",
+  "declineLoad": "Odrzuć Ładunek",
+
+  "callPickup": "Zadzwoń\nOdbiór",
+  "navigate": "Nawiguj",
+  "pod": "POD",
+  "uploadPod": "Wyślij POD",
+  "callDelivery": "Zadzwoń\nDostawa",
+  "issue": "Problem",
+
+  "loadInformation": "INFORMACJE O ŁADUNKU",
+  "routeSection": "📍  Trasa",
+  "loadDetailsSection": "📦  Szczegóły Ładunku",
+  "origin": "Skąd",
+  "destination": "Dokąd",
+  "pickup": "Odbiór",
+  "delivery": "Dostawa",
+  "stops": "PRZYSTANKI",
+  "distance": "Odległość",
+  "equipment": "Sprzęt",
+  "weight": "Waga",
+  "hazardous": "Niebezpieczny",
+  "tempControl": "Kontrola Temp",
+  "yes": "⚠️  Tak",
+  "no": "✓  Nie",
+  "yesTemp": "❄️  Tak",
+
+  "stopTimeline": "Przystanki",
+  "allDone": "Wszystkie ukończone ✓",
+  "done": "Ukończono",
+  "headingHere": "🚛 Jadę tutaj",
+  "youAreHere": "📍 Jesteś tutaj",
+  "upNext": "⏳ Następny",
+  "upcoming": "⏳ Nadchodzący",
+  "recordedEvents": "ZAPISANE ZDARZENIA",
+  "arrivedAtStop": "Dotarłem do przystanku",
+  "leftStop": "Opuściłem przystanek",
+  "podSubmitted": "POD wysłany",
+
+  "podReminderBanner": "⚠️  Wymagany POD — wyślij przed zakończeniem trasy",
+
+  "reportIssue": "Zgłoś Problem",
+  "dispatcherNotified": "Dyspozytor zostanie natychmiast powiadomiony.",
+  "delay": "Opóźnienie",
+  "breakdown": "Awaria",
+  "damage": "Uszkodzenie",
+  "dispatcherNotifiedMsg": "Dyspozytor powiadomiony",
+
+  "locationSharing": "Udostępnianie Lokalizacji",
+  "shareMyLocation": "Udostępnij moją lokalizację",
+  "updatesAutomatically": "Aktualizuje automatycznie podczas jazdy.",
+  "yourDispatcherSees": "Dyspozytor widzi Twoją lokalizację podczas trasy.",
+  "locationSharingOn": "Udostępnianie lokalizacji włączone",
+  "locationSharingOff": "Udostępnianie lokalizacji wyłączone",
+  "save": "Zapisz",
+  "sharingLocation": "Udostępnianie lokalizacji",
+  "locationPaused": "Lokalizacja wstrzymana",
+  "locationOn": "Lokalizacja włączona",
+  "locationOff": "Lokalizacja wyłączona",
+
+  "pauseTracking": "Wstrzymać Śledzenie?",
+  "pauseTrackingMsg": "Pingi lokalizacji zostaną zatrzymane",
+  "pauseWarning": "Dyspozytor nie będzie widział Twojej pozycji. Dotknij badge, aby wznowić.",
+  "cancel": "Anuluj",
+  "pauseTrackingBtn": "Wstrzymaj Śledzenie",
+
+  "confirmAction": "Potwierdź Działanie",
+  "youAreAboutTo": "Zamierzasz:",
+  "cannotBeUndone": "Tego nie można cofnąć.",
+  "yesConfirm": "Tak, Potwierdź",
+
+  "reasonForDeclining": "Powód Odrzucenia",
+  "selectReasonBelow": "Wybierz powód poniżej",
+  "vehicleIssue": "Problem z Pojazdem",
+  "personalEmergency": "Nagły Przypadek",
+  "routeTooLong": "Trasa Zbyt Długa",
+  "lowRate": "Niska Stawka",
+  "other": "Inny",
+  "selectReasonFirst": "Najpierw wybierz powód.",
+  "confirmDecline": "Potwierdź Odrzucenie",
+
+  "documents": "Dokumenty",
+  "uploadedCount": "{count} / 4 wysłane",
+  "@uploadedCount": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "podSigned": "POD (Podpisany)",
+  "podMandatory": "Obowiązkowy przed zakończeniem trasy",
+  "eWayBill": "E-Way Bill",
+  "invoiceCopy": "Kopia Faktury",
+  "damagePhoto": "Zdjęcie Uszkodzenia",
+  "optional": "Opcjonalny",
+  "required": "Wymagany",
+  "uploaded": "✓ Wysłano",
+  "podUploadedMsg": "POD wysłany ✓ — możesz zakończyć trasę",
+  "uploadPodFirst": "Najpierw wyślij swój POD",
+
+  "callPickupContact": "Kontakt Odbioru",
+  "callDeliveryContact": "Kontakt Dostawy",
+  "callNow": "Zadzwoń Teraz",
+  "callingMsg": "Dzwonię do",
+  "callingDispatcher": "Dzwonię do dyspozytora...",
+
+  "tripCompletedTitle": "Trasa Ukończona!",
+  "tripCompletedSubtitle": "Przesyłka dostarczona pomyślnie.",
+  "callDispatcher": "Zadzwoń do Dyspozytora",
+  "podSubmittedBadge": "POD wysłany",
+  "tripClosedBadge": "Trasa zamknięta",
+
+  "loadDeclined": "Ładunek Odrzucony",
+  "youHaveDeclined": "Odrzuciłeś ten ładunek.",
+  "declinedMistake": "Jeśli to pomyłka, zadzwoń do dyspozytora.",
+
+  "couldNotUpdate": "Nie można zaktualizować. Spróbuj ponownie.",
+  "openingMaps": "Otwieranie map do",
+  "failedMsg": "Nieudane"
+}

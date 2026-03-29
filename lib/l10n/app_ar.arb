@@ -1,0 +1,170 @@
+{
+  "@@locale": "ar",
+
+  "appTitle": "Leap Driver",
+  "checkSms": "تحقق من رسائلك",
+  "smsInstruction": "اضغط على رابط الشحنة المرسل إلى هاتفك لفتح رحلتك.",
+  "openSmsApp": "افتح تطبيق الرسائل",
+  "smsTapInstruction": "اضغط على الرابط المرسل من المرسل لبدء العمل.",
+  "noLoginRequired": "لا يلزم تسجيل الدخول · الوصول عبر رابط SMS",
+
+  "loadingShipment": "جارٍ تحميل الشحنة...",
+  "unableToLoad": "تعذّر التحميل",
+  "retry": "إعادة المحاولة",
+  "noData": "لا توجد بيانات",
+
+  "shipment": "الشحنة",
+  "notStarted": "لم تبدأ",
+  "headingToPickup": "في الطريق للاستلام",
+  "inTransit": "في الطريق",
+  "allStopsDone": "تمت جميع المحطات · جاهز للإنهاء",
+  "tripCompleted": "اكتملت الرحلة",
+  "stopProgress": "المحطة {done} من {total}",
+  "@stopProgress": {
+    "placeholders": {
+      "done": { "type": "int" },
+      "total": { "type": "int" }
+    }
+  },
+  "stopsNotStarted": "{total} محطات · لم تبدأ",
+  "@stopsNotStarted": {
+    "placeholders": {
+      "total": { "type": "int" }
+    }
+  },
+
+  "pendingAcceptance": "في انتظار القبول",
+  "accepted": "مقبول",
+  "enRoutePickup": "في الطريق للاستلام",
+  "atPickup": "عند الاستلام",
+  "atDelivery": "عند التسليم",
+  "delivered": "تم التسليم",
+  "completed": "مكتمل",
+  "declined": "مرفوض",
+
+  "acceptLoad": "✓  قبول الحمولة",
+  "startTrip": "▶  بدء الرحلة",
+  "arrivedAtPickup": "📍  وصلت لنقطة الاستلام",
+  "loaded": "✅  تم التحميل",
+  "arrivedAtDelivery": "📍  وصلت لنقطة التسليم",
+  "deliveredBtn": "✅  تم التسليم",
+  "completeTrip": "🏁  إنهاء الرحلة",
+  "uploadPodToComplete": "🔒  ارفع POD لإنهاء الرحلة",
+  "declineLoad": "رفض الحمولة",
+
+  "callPickup": "اتصال\nاستلام",
+  "navigate": "التنقل",
+  "pod": "POD",
+  "uploadPod": "رفع POD",
+  "callDelivery": "اتصال\nتسليم",
+  "issue": "مشكلة",
+
+  "loadInformation": "معلومات الحمولة",
+  "routeSection": "📍  المسار",
+  "loadDetailsSection": "📦  تفاصيل الحمولة",
+  "origin": "المنشأ",
+  "destination": "الوجهة",
+  "pickup": "الاستلام",
+  "delivery": "التسليم",
+  "stops": "المحطات",
+  "distance": "المسافة",
+  "equipment": "المعدات",
+  "weight": "الوزن",
+  "hazardous": "خطر",
+  "tempControl": "التحكم بالحرارة",
+  "yes": "⚠️  نعم",
+  "no": "✓  لا",
+  "yesTemp": "❄️  نعم",
+
+  "stopTimeline": "المحطات",
+  "allDone": "جميعها مكتملة ✓",
+  "done": "مكتمل",
+  "headingHere": "🚛 في الطريق إليها",
+  "youAreHere": "📍 أنت هنا",
+  "upNext": "⏳ التالية",
+  "upcoming": "⏳ القادمة",
+  "recordedEvents": "الأحداث المسجّلة",
+  "arrivedAtStop": "وصلت إلى المحطة",
+  "leftStop": "غادرت المحطة",
+  "podSubmitted": "تم إرسال POD",
+
+  "podReminderBanner": "⚠️  POD مطلوب — ارفعه قبل إنهاء الرحلة",
+
+  "reportIssue": "الإبلاغ عن مشكلة",
+  "dispatcherNotified": "سيتم إخطار المرسل فوراً.",
+  "delay": "تأخير",
+  "breakdown": "عطل",
+  "damage": "تلف",
+  "dispatcherNotifiedMsg": "تم إخطار المرسل",
+
+  "locationSharing": "مشاركة الموقع",
+  "shareMyLocation": "مشاركة موقعي",
+  "updatesAutomatically": "يتحدث تلقائياً أثناء القيادة.",
+  "yourDispatcherSees": "يرى المرسل موقعك أثناء الرحلة.",
+  "locationSharingOn": "مشاركة الموقع مفعّلة",
+  "locationSharingOff": "مشاركة الموقع معطّلة",
+  "save": "حفظ",
+  "sharingLocation": "جارٍ مشاركة الموقع",
+  "locationPaused": "الموقع متوقف مؤقتاً",
+  "locationOn": "الموقع مفعّل",
+  "locationOff": "الموقع معطّل",
+
+  "pauseTracking": "إيقاف التتبع مؤقتاً؟",
+  "pauseTrackingMsg": "ستتوقف إشارات الموقع فوراً",
+  "pauseWarning": "لن يرى المرسل موقعك. اضغط على الشارة للاستئناف.",
+  "cancel": "إلغاء",
+  "pauseTrackingBtn": "إيقاف التتبع",
+
+  "confirmAction": "تأكيد الإجراء",
+  "youAreAboutTo": "أنت على وشك:",
+  "cannotBeUndone": "لا يمكن التراجع عن هذا.",
+  "yesConfirm": "نعم، تأكيد",
+
+  "reasonForDeclining": "سبب الرفض",
+  "selectReasonBelow": "اختر السبب أدناه",
+  "vehicleIssue": "مشكلة في المركبة",
+  "personalEmergency": "طارئ شخصي",
+  "routeTooLong": "المسار طويل جداً",
+  "lowRate": "الأجر منخفض",
+  "other": "أخرى",
+  "selectReasonFirst": "اختر سبباً أولاً.",
+  "confirmDecline": "تأكيد الرفض",
+
+  "documents": "المستندات",
+  "uploadedCount": "{count} / 4 مرفوعة",
+  "@uploadedCount": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "podSigned": "POD (موقّع)",
+  "podMandatory": "إلزامي قبل إنهاء الرحلة",
+  "eWayBill": "E-Way Bill",
+  "invoiceCopy": "نسخة الفاتورة",
+  "damagePhoto": "صورة التلف",
+  "optional": "اختياري",
+  "required": "مطلوب",
+  "uploaded": "✓ تم الرفع",
+  "podUploadedMsg": "تم رفع POD ✓ — يمكنك الآن إنهاء الرحلة",
+  "uploadPodFirst": "يرجى رفع POD أولاً",
+
+  "callPickupContact": "جهة اتصال الاستلام",
+  "callDeliveryContact": "جهة اتصال التسليم",
+  "callNow": "اتصل الآن",
+  "callingMsg": "جارٍ الاتصال بـ",
+  "callingDispatcher": "جارٍ الاتصال بالمرسل...",
+
+  "tripCompletedTitle": "اكتملت الرحلة!",
+  "tripCompletedSubtitle": "تم تسليم الشحنة بنجاح.",
+  "callDispatcher": "الاتصال بالمرسل",
+  "podSubmittedBadge": "تم إرسال POD",
+  "tripClosedBadge": "الرحلة مغلقة",
+
+  "loadDeclined": "تم رفض الحمولة",
+  "youHaveDeclined": "لقد رفضت هذه الحمولة.",
+  "declinedMistake": "إذا كان ذلك خطأً، اتصل بمرسلك.",
+
+  "couldNotUpdate": "تعذّر تحديث الحالة. حاول مرة أخرى.",
+  "openingMaps": "فتح الخرائط إلى",
+  "failedMsg": "فشل"
+}

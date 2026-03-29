@@ -1,0 +1,170 @@
+{
+  "@@locale": "pt",
+
+  "appTitle": "Leap Driver",
+  "checkSms": "Verifique seu SMS",
+  "smsInstruction": "Toque no link de remessa enviado para o seu telefone para abrir sua viagem.",
+  "openSmsApp": "Abra o aplicativo de SMS",
+  "smsTapInstruction": "Toque no link de remessa enviado pelo seu despachante para começar.",
+  "noLoginRequired": "Sem necessidade de login · Acesso fornecido via link SMS",
+
+  "loadingShipment": "Carregando remessa...",
+  "unableToLoad": "Não foi possível carregar",
+  "retry": "Tentar novamente",
+  "noData": "Sem dados",
+
+  "shipment": "REMESSA",
+  "notStarted": "Não iniciado",
+  "headingToPickup": "A caminho da coleta",
+  "inTransit": "Em trânsito",
+  "allStopsDone": "Todas as paradas concluídas · Pronto para finalizar",
+  "tripCompleted": "Viagem concluída",
+  "stopProgress": "Parada {done} de {total}",
+  "@stopProgress": {
+    "placeholders": {
+      "done": { "type": "int" },
+      "total": { "type": "int" }
+    }
+  },
+  "stopsNotStarted": "{total} paradas · Não iniciado",
+  "@stopsNotStarted": {
+    "placeholders": {
+      "total": { "type": "int" }
+    }
+  },
+
+  "pendingAcceptance": "Aguardando Aceitação",
+  "accepted": "Aceito",
+  "enRoutePickup": "A Caminho da Coleta",
+  "atPickup": "Na Coleta",
+  "atDelivery": "Na Entrega",
+  "delivered": "Entregue",
+  "completed": "Concluído",
+  "declined": "Recusado",
+
+  "acceptLoad": "✓  Aceitar Carga",
+  "startTrip": "▶  Iniciar Viagem",
+  "arrivedAtPickup": "📍  Chegou na Coleta",
+  "loaded": "✅  Carregado",
+  "arrivedAtDelivery": "📍  Chegou na Entrega",
+  "deliveredBtn": "✅  Entregue",
+  "completeTrip": "🏁  Finalizar Viagem",
+  "uploadPodToComplete": "🔒  Enviar POD para Finalizar",
+  "declineLoad": "Recusar Carga",
+
+  "callPickup": "Ligar\nColeta",
+  "navigate": "Navegar",
+  "pod": "POD",
+  "uploadPod": "Enviar POD",
+  "callDelivery": "Ligar\nEntrega",
+  "issue": "Problema",
+
+  "loadInformation": "INFORMAÇÕES DA CARGA",
+  "routeSection": "📍  Rota",
+  "loadDetailsSection": "📦  Detalhes da Carga",
+  "origin": "Origem",
+  "destination": "Destino",
+  "pickup": "Coleta",
+  "delivery": "Entrega",
+  "stops": "PARADAS",
+  "distance": "Distância",
+  "equipment": "Equipamento",
+  "weight": "Peso",
+  "hazardous": "Perigoso",
+  "tempControl": "Controle de Temp",
+  "yes": "⚠️  Sim",
+  "no": "✓  Não",
+  "yesTemp": "❄️  Sim",
+
+  "stopTimeline": "Paradas",
+  "allDone": "Todas concluídas ✓",
+  "done": "Concluído",
+  "headingHere": "🚛 A caminho",
+  "youAreHere": "📍 Você está aqui",
+  "upNext": "⏳ Próxima",
+  "upcoming": "⏳ Próxima",
+  "recordedEvents": "EVENTOS REGISTRADOS",
+  "arrivedAtStop": "Chegou na parada",
+  "leftStop": "Saiu da parada",
+  "podSubmitted": "POD enviado",
+
+  "podReminderBanner": "⚠️  POD obrigatório — envie antes de finalizar a viagem",
+
+  "reportIssue": "Reportar Problema",
+  "dispatcherNotified": "Seu despachante será notificado imediatamente.",
+  "delay": "Atraso",
+  "breakdown": "Pane",
+  "damage": "Dano",
+  "dispatcherNotifiedMsg": "Despachante notificado",
+
+  "locationSharing": "Compartilhamento de Localização",
+  "shareMyLocation": "Compartilhar minha localização",
+  "updatesAutomatically": "Atualiza automaticamente enquanto você dirige.",
+  "yourDispatcherSees": "Seu despachante vê sua localização durante a viagem.",
+  "locationSharingOn": "Compartilhamento de localização ativado",
+  "locationSharingOff": "Compartilhamento de localização desativado",
+  "save": "Salvar",
+  "sharingLocation": "Compartilhando localização",
+  "locationPaused": "Localização pausada",
+  "locationOn": "Localização ativada",
+  "locationOff": "Localização desativada",
+
+  "pauseTracking": "Pausar Rastreamento?",
+  "pauseTrackingMsg": "Os pings de localização serão interrompidos",
+  "pauseWarning": "O despachante não verá mais sua posição. Toque no badge para retomar.",
+  "cancel": "Cancelar",
+  "pauseTrackingBtn": "Pausar Rastreamento",
+
+  "confirmAction": "Confirmar Ação",
+  "youAreAboutTo": "Você está prestes a:",
+  "cannotBeUndone": "Isso não pode ser desfeito.",
+  "yesConfirm": "Sim, Confirmar",
+
+  "reasonForDeclining": "Motivo da Recusa",
+  "selectReasonBelow": "Selecione o motivo abaixo",
+  "vehicleIssue": "Problema no Veículo",
+  "personalEmergency": "Emergência Pessoal",
+  "routeTooLong": "Rota Muito Longa",
+  "lowRate": "Valor Baixo",
+  "other": "Outro",
+  "selectReasonFirst": "Selecione um motivo primeiro.",
+  "confirmDecline": "Confirmar Recusa",
+
+  "documents": "Documentos",
+  "uploadedCount": "{count} / 4 enviados",
+  "@uploadedCount": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "podSigned": "POD (Assinado)",
+  "podMandatory": "Obrigatório antes de finalizar a viagem",
+  "eWayBill": "E-Way Bill",
+  "invoiceCopy": "Cópia da Fatura",
+  "damagePhoto": "Foto de Dano",
+  "optional": "Opcional",
+  "required": "Obrigatório",
+  "uploaded": "✓ Enviado",
+  "podUploadedMsg": "POD enviado ✓ — você pode finalizar a viagem",
+  "uploadPodFirst": "Por favor, envie seu POD primeiro",
+
+  "callPickupContact": "Contato de Coleta",
+  "callDeliveryContact": "Contato de Entrega",
+  "callNow": "Ligar Agora",
+  "callingMsg": "Ligando para",
+  "callingDispatcher": "Ligando para o despachante...",
+
+  "tripCompletedTitle": "Viagem Concluída!",
+  "tripCompletedSubtitle": "Remessa entregue com sucesso.",
+  "callDispatcher": "Ligar para Despachante",
+  "podSubmittedBadge": "POD enviado",
+  "tripClosedBadge": "Viagem encerrada",
+
+  "loadDeclined": "Carga Recusada",
+  "youHaveDeclined": "Você recusou esta carga.",
+  "declinedMistake": "Se foi um engano, ligue para seu despachante.",
+
+  "couldNotUpdate": "Não foi possível atualizar. Tente novamente.",
+  "openingMaps": "Abrindo mapas para",
+  "failedMsg": "Falhou"
+}

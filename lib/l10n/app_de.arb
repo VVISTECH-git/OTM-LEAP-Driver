@@ -1,0 +1,170 @@
+{
+  "@@locale": "de",
+
+  "appTitle": "Leap Driver",
+  "checkSms": "SMS prüfen",
+  "smsInstruction": "Tippe auf den Sendungslink auf deinem Telefon, um deine Fahrt zu öffnen.",
+  "openSmsApp": "SMS-App öffnen",
+  "smsTapInstruction": "Tippe auf den Link deines Disponenten, um zu beginnen.",
+  "noLoginRequired": "Kein Login erforderlich · Zugang per SMS-Link",
+
+  "loadingShipment": "Sendung wird geladen...",
+  "unableToLoad": "Laden fehlgeschlagen",
+  "retry": "Erneut versuchen",
+  "noData": "Keine Daten",
+
+  "shipment": "SENDUNG",
+  "notStarted": "Nicht gestartet",
+  "headingToPickup": "Auf dem Weg zur Abholung",
+  "inTransit": "Unterwegs",
+  "allStopsDone": "Alle Stopps erledigt · Bereit zum Abschließen",
+  "tripCompleted": "Fahrt abgeschlossen",
+  "stopProgress": "Stopp {done} von {total}",
+  "@stopProgress": {
+    "placeholders": {
+      "done": { "type": "int" },
+      "total": { "type": "int" }
+    }
+  },
+  "stopsNotStarted": "{total} Stopps · Nicht gestartet",
+  "@stopsNotStarted": {
+    "placeholders": {
+      "total": { "type": "int" }
+    }
+  },
+
+  "pendingAcceptance": "Wartet auf Annahme",
+  "accepted": "Angenommen",
+  "enRoutePickup": "Unterwegs zur Abholung",
+  "atPickup": "Bei Abholung",
+  "atDelivery": "Bei Lieferung",
+  "delivered": "Geliefert",
+  "completed": "Abgeschlossen",
+  "declined": "Abgelehnt",
+
+  "acceptLoad": "✓  Ladung annehmen",
+  "startTrip": "▶  Fahrt starten",
+  "arrivedAtPickup": "📍  Abholung angekommen",
+  "loaded": "✅  Beladen",
+  "arrivedAtDelivery": "📍  Lieferung angekommen",
+  "deliveredBtn": "✅  Geliefert",
+  "completeTrip": "🏁  Fahrt abschließen",
+  "uploadPodToComplete": "🔒  POD hochladen zum Abschließen",
+  "declineLoad": "Ladung ablehnen",
+
+  "callPickup": "Anrufen\nAbholung",
+  "navigate": "Navigieren",
+  "pod": "POD",
+  "uploadPod": "POD hochladen",
+  "callDelivery": "Anrufen\nLieferung",
+  "issue": "Problem",
+
+  "loadInformation": "LADUNGSINFORMATIONEN",
+  "routeSection": "📍  Route",
+  "loadDetailsSection": "📦  Ladungsdetails",
+  "origin": "Herkunft",
+  "destination": "Ziel",
+  "pickup": "Abholung",
+  "delivery": "Lieferung",
+  "stops": "STOPPS",
+  "distance": "Entfernung",
+  "equipment": "Ausrüstung",
+  "weight": "Gewicht",
+  "hazardous": "Gefährlich",
+  "tempControl": "Temperaturkontrolle",
+  "yes": "⚠️  Ja",
+  "no": "✓  Nein",
+  "yesTemp": "❄️  Ja",
+
+  "stopTimeline": "Stopps",
+  "allDone": "Alle erledigt ✓",
+  "done": "Erledigt",
+  "headingHere": "🚛 Auf dem Weg",
+  "youAreHere": "📍 Du bist hier",
+  "upNext": "⏳ Als Nächstes",
+  "upcoming": "⏳ Bevorstehend",
+  "recordedEvents": "AUFGEZEICHNETE EREIGNISSE",
+  "arrivedAtStop": "Am Stopp angekommen",
+  "leftStop": "Stopp verlassen",
+  "podSubmitted": "POD übermittelt",
+
+  "podReminderBanner": "⚠️  POD erforderlich — vor Fahrtende hochladen",
+
+  "reportIssue": "Problem melden",
+  "dispatcherNotified": "Dein Disponent wird sofort benachrichtigt.",
+  "delay": "Verzögerung",
+  "breakdown": "Panne",
+  "damage": "Schaden",
+  "dispatcherNotifiedMsg": "Disponent benachrichtigt",
+
+  "locationSharing": "Standortfreigabe",
+  "shareMyLocation": "Meinen Standort teilen",
+  "updatesAutomatically": "Wird während der Fahrt automatisch aktualisiert.",
+  "yourDispatcherSees": "Dein Disponent sieht deinen Standort während der Fahrt.",
+  "locationSharingOn": "Standortfreigabe aktiviert",
+  "locationSharingOff": "Standortfreigabe deaktiviert",
+  "save": "Speichern",
+  "sharingLocation": "Standort wird geteilt",
+  "locationPaused": "Standort pausiert",
+  "locationOn": "Standort an",
+  "locationOff": "Standort aus",
+
+  "pauseTracking": "Tracking pausieren?",
+  "pauseTrackingMsg": "Standort-Pings werden sofort gestoppt",
+  "pauseWarning": "Der Disponent sieht deinen Standort nicht mehr. Tippe auf das Badge zum Fortsetzen.",
+  "cancel": "Abbrechen",
+  "pauseTrackingBtn": "Tracking pausieren",
+
+  "confirmAction": "Aktion bestätigen",
+  "youAreAboutTo": "Du bist dabei:",
+  "cannotBeUndone": "Dies kann nicht rückgängig gemacht werden.",
+  "yesConfirm": "Ja, bestätigen",
+
+  "reasonForDeclining": "Ablehnungsgrund",
+  "selectReasonBelow": "Wähle unten einen Grund aus",
+  "vehicleIssue": "Fahrzeugproblem",
+  "personalEmergency": "Persönlicher Notfall",
+  "routeTooLong": "Route zu lang",
+  "lowRate": "Niedriger Tarif",
+  "other": "Sonstiges",
+  "selectReasonFirst": "Bitte zuerst einen Grund auswählen.",
+  "confirmDecline": "Ablehnung bestätigen",
+
+  "documents": "Dokumente",
+  "uploadedCount": "{count} / 4 hochgeladen",
+  "@uploadedCount": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "podSigned": "POD (Unterschrieben)",
+  "podMandatory": "Pflicht vor Fahrtende",
+  "eWayBill": "E-Way Bill",
+  "invoiceCopy": "Rechnungskopie",
+  "damagePhoto": "Schadensfoto",
+  "optional": "Optional",
+  "required": "Erforderlich",
+  "uploaded": "✓ Hochgeladen",
+  "podUploadedMsg": "POD hochgeladen ✓ — du kannst die Fahrt abschließen",
+  "uploadPodFirst": "Bitte erst POD hochladen",
+
+  "callPickupContact": "Abholkontakt",
+  "callDeliveryContact": "Lieferkontakt",
+  "callNow": "Jetzt anrufen",
+  "callingMsg": "Rufe an",
+  "callingDispatcher": "Rufe Disponenten an...",
+
+  "tripCompletedTitle": "Fahrt abgeschlossen!",
+  "tripCompletedSubtitle": "Sendung erfolgreich zugestellt.",
+  "callDispatcher": "Disponenten anrufen",
+  "podSubmittedBadge": "POD übermittelt",
+  "tripClosedBadge": "Fahrt geschlossen",
+
+  "loadDeclined": "Ladung abgelehnt",
+  "youHaveDeclined": "Du hast diese Ladung abgelehnt.",
+  "declinedMistake": "Falls das ein Fehler war, ruf deinen Disponenten an.",
+
+  "couldNotUpdate": "Status konnte nicht aktualisiert werden. Erneut versuchen.",
+  "openingMaps": "Karten öffnen nach",
+  "failedMsg": "Fehlgeschlagen"
+}
