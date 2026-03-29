@@ -66,5 +66,17 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>LEAP Driver needs your location to track deliveries and update shipment status.</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>LEAP Driver needs your location in the background to track active trips.</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>LEAP Driver needs your location in the background to track active trips.</string>
+	<key>NSCameraUsageDescription</key>
+	<string>LEAP Driver needs camera access to capture proof of delivery photos.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>LEAP Driver needs photo library access to upload proof of delivery.</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>LEAP Driver needs permission to save delivery photos.</string>
 </dict>
 </plist>
