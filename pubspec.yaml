@@ -20,7 +20,7 @@ dependencies:
   geolocator: ^14.0.2
   app_links: ^6.3.2
   provider: ^6.1.2
-  connectivity_plus: ^7.0.0
+  connectivity_plus: ^6.0.5
 
 dev_dependencies:
   flutter_test:
