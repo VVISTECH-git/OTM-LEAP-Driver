@@ -95,7 +95,12 @@ class DeepLinkService {
       return null;
     }
 
-    final shipmentId = uri.pathSegments[1];
+    // Join all segments after 'shipment' to handle domains with slashes
+    // e.g. https://vvistech.com/shipment/KRAFT/KFNA.2100046190
+    // pathSegments = ['shipment', 'KRAFT', 'KFNA.2100046190'] → 'KRAFT/KFNA.2100046190'
+    // e.g. https://vvistech.com/shipment/DEMO.37008
+    // pathSegments = ['shipment', 'DEMO.37008'] → 'DEMO.37008' (unchanged)
+    final shipmentId = uri.pathSegments.sublist(1).join('/');
     log('Extracted Shipment ID (universal link): $shipmentId');
     return shipmentId;
   }
